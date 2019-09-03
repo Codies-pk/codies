@@ -61,9 +61,9 @@
             <h2 class="ftco-heading-2">Have a Questions?</h2>
             <div class="block-23 mb-3">
               <ul>
-                <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+                <li><span class="icon icon-map-marker"></span><span class="text">A-7, Block 2, Gulshan-e-iqbal, Karachi.</span></li>
+                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+92-334-0305745</span></a></li>
+                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@codies.pk</span></a></li>
               </ul>
             </div>
           </div>
@@ -134,6 +134,7 @@
   <script src="js/aos.js"></script>
   <script src="js/jquery.animateNumber.min.js"></script>
   <script src="js/scrollax.min.js"></script>
+<<<<<<< HEAD
 {{-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> --}}
 {{-- <script>
   swal("Good job!", "You clicked the button!", "success");
@@ -141,6 +142,11 @@
   <script src="js/main.js"></script> --}}
 
 
+=======
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUbRHtu3k_fg3jDGk_qAatE5jA4bC_ndE&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+>>>>>>> b379d4288691e5263dace4387a6de855c64f754c
 </body>
 
 </html>

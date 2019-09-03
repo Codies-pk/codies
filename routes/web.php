@@ -17,16 +17,18 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('about');
 });
-Route::get('/contact', function () {
-    return view('contact');
-});
+
 Route::get('/services', function () {
     return view('services');
 });
+
 Route::get('/portfolio', function () {
     return view('portfolio');
 });
 
+Route::get('/contact', 'ContactController@index');
+
+Route::post('/contact-us', 'ContactController@store');
 
 
 Route::post('/quote', 'HomeController@quote');

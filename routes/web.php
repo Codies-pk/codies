@@ -17,9 +17,11 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('about');
 });
-Route::get('/contact', function () {
-    return view('contact');
-});
+
+Route::get('/contact', 'ContactController@index');
+
+Route::post('/contact-us', 'ContactController@store');
+
 Route::get('/services', function () {
     return view('services');
 });

@@ -27,19 +27,12 @@
 </head>
 
 <body>
-
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container d-flex align-items-center">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="oi oi-menu"></span> Menu
       </button>
-      <form action="#" class="searchform order-lg-last">
-        <div class="form-group d-flex">
-          <input type="text" class="form-control pl-3" placeholder="Search">
-          <button type="submit" placeholder="" class="form-control search"><span class="ion-ios-search"></span></button>
-        </div>
-      </form>
-      <div class="collapse navbar-collapse" id="ftco-nav">
+      <div class="collapse navbar-collapse" id="ftco-nav" style="height: 80px;" >
         <ul class="navbar-nav mr-auto">
           <li class="nav-item"><a href="\" class="nav-link pl-0">Home</a></li>
           <li class="nav-item"><a href="\about" class="nav-link">About</a></li>
@@ -53,7 +46,7 @@
   <!-- END nav -->
 
 
-
+  {{-- @include('sweetalert::alert') --}}
   @yield('content')
 
 
@@ -75,42 +68,16 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="ftco-footer-widget mb-5">
-            <h2 class="ftco-heading-2">Recent Blog</h2>
-            <div class="block-21 mb-4 d-flex">
-              <a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a>
-              <div class="text">
-                <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
-                <div class="meta">
-                  <div><a href="#"><span class="icon-calendar"></span> June 27, 2019</a></div>
-                  <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                  <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-                </div>
-              </div>
-            </div>
-            <div class="block-21 mb-5 d-flex">
-              <a class="blog-img mr-4" style="background-image: url(images/image_2.jpg);"></a>
-              <div class="text">
-                <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
-                <div class="meta">
-                  <div><a href="#"><span class="icon-calendar"></span> June 27, 2019</a></div>
-                  <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                  <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+
         <div class="col-md-6 col-lg-3">
           <div class="ftco-footer-widget mb-5 ml-md-4">
             <h2 class="ftco-heading-2">Links</h2>
             <ul class="list-unstyled">
-              <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Home</a></li>
-              <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>About</a></li>
-              <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Services</a></li>
-              <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Projects</a></li>
-              <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact</a></li>
+              <li><a href="/"><span class="ion-ios-arrow-round-forward mr-2"></span>Home</a></li>
+              <li><a href="/about"><span class="ion-ios-arrow-round-forward mr-2"></span>About</a></li>
+              <li><a href="/services"><span class="ion-ios-arrow-round-forward mr-2"></span>Services</a></li>
+              <li><a href="/portfolio"><span class="ion-ios-arrow-round-forward mr-2"></span>Portfolio</a></li>
+              <li><a href="/contact"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact</a></li>
             </ul>
           </div>
         </div>
@@ -141,8 +108,7 @@
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             Copyright &copy;<script>
               document.write(new Date().getFullYear());
-            </script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </script> All rights reserved | <a href="https://codies.pk" target="_blank">Codies</a>
           </p>
         </div>
       </div>
@@ -168,9 +134,13 @@
   <script src="js/aos.js"></script>
   <script src="js/jquery.animateNumber.min.js"></script>
   <script src="js/scrollax.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-  <script src="js/google-map.js"></script>
-  <script src="js/main.js"></script>
+{{-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> --}}
+{{-- <script>
+  swal("Good job!", "You clicked the button!", "success");
+</script>
+  <script src="js/main.js"></script> --}}
+
+
 </body>
 
 </html>

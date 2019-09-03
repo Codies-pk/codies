@@ -26,3 +26,7 @@ Route::get('/services', function () {
 Route::get('/portfolio', function () {
     return view('portfolio');
 });
+
+
+
+Route::post('/quote', 'HomeController@quote');

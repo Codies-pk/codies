@@ -7,7 +7,7 @@
 	<div class="row no-gutters slider-text align-items-center justify-content-center">
 		<div class="col-md-9 ftco-animate text-center">
 		<h1 class="mb-2 bread">Services</h1>
-		<p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Services <i class="ion-ios-arrow-forward"></i></span></p>
+		<p class="breadcrumbs"><span class="mr-2"><a href="/">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Services</span></p>
 		</div>
 	</div>
 	</div>
@@ -23,7 +23,7 @@
 							<h3>Read Our Success Story for Inspiration</h3>
 							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
 							<p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word.</p>
-							<p><a href="#" class="btn btn-primary py-3 px-4">Contact us</a></p>
+							<p><a href="/contact" class="btn btn-primary py-3 px-4">Contact us</a></p>
 						</div>
 					</div>
 				</div>
@@ -69,7 +69,7 @@
 		</div>
 	</section>
 
-<section class="ftco-section">
+<section class="ftco-section mb-5">
 		<div class="container">
 			<div class="row justify-content-center mb-5 pb-2">
 		<div class="col-md-8 text-center heading-section ftco-animate">

@@ -287,7 +287,11 @@ AOS.init({
                     jQuery("#last_name").val("");
                     jQuery("#phone").val("");
                     jQuery("#message").val("");
-                    swal("Quote Sent!", "Quote has been sent successfully!", "success");
+                    swal(
+                        "Quote Sent!",
+                        "Quote has been sent successfully!",
+                        "success"
+                    );
                 },
                 error: function(err) {
                     if (err.status == 422) {
@@ -297,11 +301,72 @@ AOS.init({
                         $("span[id*=validationDelete]").remove();
                         $.each(err.responseJSON.errors, function(i, error) {
                             var el = $(document).find('[name="' + i + '"]');
-                            el.after($('<span style="color: red;" id="validationDelete">' + error[0] + "</span>" ));
+                            el.after(
+                                $(
+                                    '<span style="color: red;" id="validationDelete">' +
+                                        error[0] +
+                                        "</span>"
+                                )
+                            );
                         });
                     }
                 }
             });
         });
     });
+
+    jQuery(document).ready(function() {
+        jQuery("#ajaxContactSubmit").click(function(e) {
+            e.preventDefault();
+            $.ajaxSetup({
+                headers: {
+                    "X-CSRF-TOKEN": $('meta[name="_token"]').attr("content")
+                }
+            });
+            jQuery.ajax({
+                url: "api/contact/post",
+                method: "post",
+                data: {
+                    name: jQuery("#name").val(),
+                    email: jQuery("#email").val(),
+                    subject: jQuery("#subject").val(),
+                    message: jQuery("#message").val()
+                },
+                success: function(result) {
+                    $("span[id*=validationDelete]").remove();
+                    jQuery("#name").val("");
+                    jQuery("#email").val("");
+                    jQuery("#subject").val("");
+                    jQuery("#message").val("");
+                    swal(
+                        "Application!",
+                        "Your application has been sent successfully!",
+                        "success"
+                    );
+                },
+                error: function(err) {
+                    if (err.status == 422) {
+                        $("#success_message")
+                            .fadeIn()
+                            .html(err.responseJSON.message);
+                        $("span[id*=validationDelete]").remove();
+                        $.each(err.responseJSON.errors, function(i, error) {
+                            var el = $(document).find('[name="' + i + '"]');
+                            el.after(
+                                $(
+                                    '<span style="color: red;" id="validationDelete">' +
+                                        error[0] +
+                                        "</span>"
+                                )
+                            );
+                        });
+                    }
+                }
+            });
+        });
+    });
+
+    function swal_error(){
+        swal("Oops!", "Some error occured please try again later!", "error");
+    }
 })(jQuery);

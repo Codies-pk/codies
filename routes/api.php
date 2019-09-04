@@ -18,3 +18,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::post('/quote/post', 'API\QuoteController@store');
+
+Route::post('/contact/post', 'API\ContactController@store');

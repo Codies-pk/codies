@@ -42,30 +42,26 @@
       <div class="row block-9 justify-content-center mb-5">
         <div class="col-md-8 mb-md-5"> 
           <h2 class="text-center">If you got any questions <br>please do not hesitate to send us a message</h2>
-          <form action="/contact-us" class="bg-light p-5 contact-form" method="POST">
-            @include('inc.message')
+          
+          
+          <form class="bg-light p-5 contact-form">
             {{ csrf_field() }}
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Your Name" name="name">
-              <div class="text-danger">{{ $errors->first('name') }}</div>
+              <input type="text" class="form-control" placeholder="Your Name" id="name" name="name">
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Your Email" name="email">
-              <div class="text-danger">{{ $errors->first('email') }}</div>
+              <input type="text" class="form-control" placeholder="Your Email" id="email" name="email">
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Subject" name="subject">
-              <div class="text-danger">{{ $errors->first('subject') }}</div>
+              <input type="text" class="form-control" placeholder="Subject" id="subject" name="subject">
             </div>
             <div class="form-group">
-              <textarea id="" cols="30" rows="7" class="form-control" placeholder="Message" name="message"></textarea>
-              <div class="text-danger">{{ $errors->first('message') }}</div>
+              <textarea cols="30" rows="7" class="form-control" placeholder="Message" id="message" name="message"></textarea>
             </div>
             <div class="form-group">
-              <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+              <input type="submit" value="Send Message" id="ajaxContactSubmit" class="btn btn-primary py-3 px-5">
             </div>
           </form>
-        
         </div>
       </div>
     </div>

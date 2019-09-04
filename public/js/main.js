@@ -287,7 +287,7 @@ AOS.init({
                     jQuery("#last_name").val("");
                     jQuery("#phone").val("");
                     jQuery("#message").val("");
-                    swal("Good job!", "You clicked the button!", "success");
+                    swal("Quote Sent!", "Quote has been sent successfully!", "success");
                 },
                 error: function(err) {
                     if (err.status == 422) {

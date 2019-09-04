@@ -71,8 +71,8 @@
     </div>
   </section>
 
-  <section class="ftco-section ftco-no-pb ftco-no-pt">
-    <div class="container-fluid px-0">
+  <section class="ftco-section ftco-no-pb ftco-no-pt pb-3">
+    <div class="container-fluid">
       <div class="row justify-content-center">
         <div class="col-md-12">
           <div id="map" class="bg-white"></div>

@@ -45,13 +45,7 @@
   </nav>
   <!-- END nav -->
 
-
-  {{-- @include('sweetalert::alert') --}}
   @yield('content')
-
-
-
-
 
   <footer class="ftco-footer ftco-bg-dark ftco-section">
     <div class="container">
@@ -134,19 +128,10 @@
   <script src="js/aos.js"></script>
   <script src="js/jquery.animateNumber.min.js"></script>
   <script src="js/scrollax.min.js"></script>
-<<<<<<< HEAD
-{{-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> --}}
-{{-- <script>
-  swal("Good job!", "You clicked the button!", "success");
-</script>
-  <script src="js/main.js"></script> --}}
-
-
-=======
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUbRHtu3k_fg3jDGk_qAatE5jA4bC_ndE&sensor=false"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUbRHtu3k_fg3jDGk_qAatE5jA4bC_ndE"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
->>>>>>> b379d4288691e5263dace4387a6de855c64f754c
 </body>
 
 </html>

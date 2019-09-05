@@ -7,16 +7,23 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    // public function quote(Request $request){
+    public function home() {
+        return view('index')->with('title', 'Home');
+    }
 
+    public function about() {
+        return view('about')->with('title', 'About');
+    }
 
-    //     $quote = new Quotes;
-    //     $quote->f_name = $request->input('f_name');
-    //     $quote->l_name = $request->input('l_name');
-    //     $quote->phone = $request->input('phone');
-    //     $quote->message = $request->input('message');
-    //     $quote->save();
+    public function services() {
+        return view('services')->with('title', 'Services');
+    }
 
-    //     return redirect('/')->with('success','Your application has been set.');
-    // }
+    public function portfolio() {
+        return view('portfolio')->with('title', 'Portfolio');
+    }
+
+    public function contact() {
+        return view('contact')->with('title', 'Contact');
+    }
 }

@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>{{ config('app.name', 'Codies') }}</title>
+  <title>{{ !empty($title) ? $title : 'Page Not Found' }} - Codies</title>
 
   <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&display=swap" rel="stylesheet">
 
@@ -25,29 +25,29 @@
   <link rel="stylesheet" href="css/style.css">
 
 </head>
-
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
-    <div class="container d-flex align-items-center">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #D3D3D3;">
+    <div class="container">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="oi oi-menu"></span> Menu
       </button>
-      <div class="collapse navbar-collapse" id="ftco-nav" style="height: 80px;" >
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item"><a href="\" class="nav-link pl-0">Home</a></li>
-          <li class="nav-item"><a href="\about" class="nav-link">About</a></li>
-          <li class="nav-item"><a href="\portfolio" class="nav-link">Portfolio</a></li>
-          <li class="nav-item"><a href="\services" class="nav-link">Services</a></li>
-          <li class="nav-item"><a href="\contact" class="nav-link">Contact</a></li>
-        </ul>
+      <img src="images/logo.png" class="d-lg-none">
+      <img src="images/logo.png" class="position-absolute d-lg-block d-none">
+      <div class="collapse navbar-collapse justify-content-md-center" id="ftco-nav" style="height: 80px;" >
+          <ul class="navbar-nav font-weight-bold">
+            <li class="nav-item {{ Request::is('/') ? 'active' : '' }}"><a href="\" class="nav-link pl-0">Home</a></li>
+            <li class="nav-item {{ Request::is('about') ? 'active' : '' }}"><a href="\about" class="nav-link">About</a></li>
+            <li class="nav-item {{ Request::is('portfolio') ? 'active' : '' }}"><a href="\portfolio" class="nav-link">Portfolio</a></li>
+            <li class="nav-item {{ Request::is('services') ? 'active' : '' }}"><a href="\services" class="nav-link">Services</a></li>
+            <li class="nav-item {{ Request::is('contact') ? 'active' : '' }}"><a href="\contact" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-  <!-- END nav -->
+      </nav>
 
   @yield('content')
 
-  <footer class="ftco-footer ftco-bg-dark ftco-section">
+  <footer class="ftco-footer ftco-section">
     <div class="container">
       <div class="row mb-5">
         <div class="col-md-6 col-lg-3">
@@ -99,7 +99,6 @@
         <div class="col-md-12 text-center">
 
           <p>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             Copyright &copy;<script>
               document.write(new Date().getFullYear());
             </script> All rights reserved | <a href="https://codies.pk" target="_blank">Codies</a>
@@ -114,8 +113,6 @@
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
       <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
       <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" /></svg></div>
-
-
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
   <script src="js/popper.min.js"></script>

@@ -47,15 +47,7 @@
                             <div class="icon mt-2 d-flex justify-content-center align-items-center"><span
                                     class="flaticon-collaboration"></span></div>
                             <div class="text media-body">
-                                <h3>Organization</h3>
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
-                            </div>
-                        </div>
-                        <div class="services text-center">
-                            <div class="icon mt-2 d-flex justify-content-center align-items-center"><span
-                                    class="flaticon-analysis"></span></div>
-                            <div class="text media-body">
-                                <h3>Risk Analysis</h3>
+                                <h3>Timely Development</h3>
                                 <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
                             </div>
                         </div>
@@ -65,33 +57,17 @@
                             <div class="icon mt-2 d-flex justify-content-center align-items-center"><span
                                     class="flaticon-search-engine"></span></div>
                             <div class="text media-body">
-                                <h3>Marketing Strategy</h3>
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
-                            </div>
-                        </div>
-                        <div class="services text-center">
-                            <div class="icon mt-2 d-flex justify-content-center align-items-center"><span
-                                    class="flaticon-handshake"></span></div>
-                            <div class="text media-body">
-                                <h3>Capital Market</h3>
+                                <h3>Customer Satisfection</h3>
                                 <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
                             </div>
                         </div>
                     </div>
-                                        <div class="col-lg-4">
+                    <div class="col-lg-4">
                         <div class="services text-center">
                             <div class="icon mt-2 d-flex justify-content-center align-items-center"><span
                                     class="flaticon-search-engine"></span></div>
                             <div class="text media-body">
-                                <h3>Marketing Strategy</h3>
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
-                            </div>
-                        </div>
-                        <div class="services text-center">
-                            <div class="icon mt-2 d-flex justify-content-center align-items-center"><span
-                                    class="flaticon-handshake"></span></div>
-                            <div class="text media-body">
-                                <h3>Capital Market</h3>
+                                <h3>Risk Analysis</h3>
                                 <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
                             </div>
                         </div>
@@ -118,8 +94,8 @@
                     <div class="icon mt-2 d-flex justify-content-center align-items-center"><span
                             class="flaticon-analysis"></span></div>
                     <div class="text media-body">
-                        <h3>Business Analysis</h3>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+                        <h3>Website Development</h3>
+                        <P>Get a professional touch with affordable price for your website design and development.</P>
                     </div>
                 </div>
             </div>
@@ -128,8 +104,8 @@
                     <div class="icon mt-2 d-flex justify-content-center align-items-center"><span
                             class="flaticon-business"></span></div>
                     <div class="text media-body">
-                        <h3>Business Consulting</h3>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+                        <h3>Mobile App Development</h3>
+                        <p>Are you seeking to build a mobile solution?</p>
                     </div>
                 </div>
             </div>
@@ -138,8 +114,8 @@
                     <div class="icon mt-2 d-flex justify-content-center align-items-center"><span
                             class="flaticon-insurance"></span></div>
                     <div class="text media-body">
-                        <h3>Business Insurance</h3>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+                        <h3>Software Solutions</h3>
+                        <p>Leveraging the latest developments in tech</p>
                     </div>
                 </div>
             </div>
@@ -148,7 +124,7 @@
                     <div class="icon mt-2 d-flex justify-content-center align-items-center"><span
                             class="flaticon-money"></span></div>
                     <div class="text media-body">
-                        <h3>Global Investigation</h3>
+                        <h3>Graphics Designing</h3>
                         <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
                     </div>
                 </div>
@@ -158,7 +134,7 @@
                     <div class="icon mt-2 d-flex justify-content-center align-items-center"><span
                             class="flaticon-rating"></span></div>
                     <div class="text media-body">
-                        <h3>Audit &amp; Evaluation</h3>
+                        <h3>Onilne Marketing</h3>
                         <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
                     </div>
                 </div>
@@ -168,7 +144,7 @@
                     <div class="icon mt-2 d-flex justify-content-center align-items-center"><span
                             class="flaticon-search-engine"></span></div>
                     <div class="text media-body">
-                        <h3>Marketing Strategy</h3>
+                        <h3>Content Writing</h3>
                         <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
                     </div>
                 </div>
@@ -327,7 +303,7 @@
                         </div>
                         <div class="d-md-flex">
                             <div class="form-group">
-								<input type="text" class="form-control" placeholder="Phone" id="phone" name="phone">
+								<input type="number" class="form-control" placeholder="Phone" id="phone" name="phone">
                             </div>
                             <div class="form-group ml-md-4">
                                 <textarea id="message" name="message" cols="30" rows="2" class="form-control" placeholder="Message"></textarea>

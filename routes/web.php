@@ -11,24 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
-Route::get('/about', function () {
-    return view('about');
-});
-
-Route::get('/services', function () {
-    return view('services');
-});
-
-Route::get('/portfolio', function () {
-    return view('portfolio');
-});
-
-Route::get('/contact', 'ContactController@index');
-
-Route::post('/contact-us', 'ContactController@store');
-
-
-Route::post('/quote', 'HomeController@quote');
+Route::get('/', 'HomeController@home');
+Route::get('/about', 'HomeController@about');
+Route::get('/services', 'HomeController@services');
+Route::get('/portfolio', 'HomeController@portfolio');
+Route::get('/contact',  'HomeController@contact');

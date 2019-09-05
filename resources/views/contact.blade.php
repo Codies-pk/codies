@@ -1,8 +1,7 @@
 @extends('layouts.app')
 	
 @section('content')
-  <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.jpg');">
-    <div class="overlay"></div>
+  <section class="hero-wrap hero-wrap-2" style="background-image: url('images/default_bg.jpg');">
     <div class="container">
       <div class="row no-gutters slider-text align-items-center justify-content-center">
         <div class="col-md-9 ftco-animate text-center">
@@ -34,7 +33,7 @@
               <div class="icon">
                 <span class="icon-envelope-o"></span>
               </div>
-              <p><span>Email:</span> <a href="mailto:info@codies.pk">info@codies.pk</a></p>
+              <p><span>Email:</span> <a href="mailto:info@codies.io">info@codies.io</a></p>
             </div>
           </div>
         </div>

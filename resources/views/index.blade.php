@@ -153,7 +153,7 @@
     </div>
 </section>
 
-<section class="ftco-intro ftco-no-pb img" style="background-image: url(images/bg_1.jpg);">
+<section class="ftco-intro ftco-no-pb img" style="background-image: url('images/default_bg.jpg');">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-9 col-md-8 d-flex align-items-center heading-section heading-section-white ftco-animate">
@@ -279,12 +279,12 @@
 </section>
 
 
-<section class="ftco-section ftco-consult ftco-no-pt ftco-no-pb" style="background-image: url(images/bg_5.jpg);"
+<section class="ftco-section ftco-consult ftco-no-pt ftco-no-pb" style="background-image: url('images/default_bg.jpg');"
     data-stellar-background-ratio="0.5">
     <div class="overlay"></div>
     <div class="container">
         <div class="row justify-content-end">
-            <div class="col-md-6 py-5 px-md-5">
+            <div class="col-md-6 py-3 px-md-5">
                 <div class="py-md-5">
                     <div class="heading-section heading-section-white ftco-animate mb-5">
                         <h2 class="mb-4">Request A Quote</h2>

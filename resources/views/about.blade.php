@@ -21,40 +21,45 @@
             <div class="img" style="background-image: url(images/about.jpg); border"></div>
             <div class="text">
               <h3>Read Our Success Story for Inspiration</h3>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-              <p><a href="/contact" class="btn btn-primary py-3 px-4">Contact us</a></p>
+              <p>In a very short period, Codies has not only established but is also maintaining remarkable business relationships with reputed clients all around the globe. Our trust with our clients is one of the biggest successes for us. They trust us by providing them the best solutions in various verticals of the industry.</p>
+              <p>Having had the chance to work for both; local and global clients, Codies has now reached the bar where it is recognized as a strong foundation of software development processes.<span id="dots">...</span></p>
+              <div id="more" style="display: none;"><p>We are considered as the provider of much matured, sophisticated delivery models. Codies has marked its identity as a proclaimed place for all software and development needs, with its extensive delivery and successful journey.</p>
+              
+              <p>Attaining business and software intelligence from raw data is the toughest challenge that most clients encounter. By developing a customized, specialized and tailor-made solution for each Industry, XYZ SOLUTIONS has led its clients to gather and cherish the fullest rewards and accommodations of the next level and next-generation software technologies.</p>
+              <p>We have a strong team of professionals, experienced developers, and certified designers. The key to the success of Codies lies within its hardworking employees that include innovative designers, passionate producers and dedicated developers who go to any extent to give the best services possible.</p>
+              </div>
+              <button class="btn btn-primary py-3 px-4" onclick="readFunction()" id="readMore">Read more</button>
             </div>
           </div>
         </div>
         <div class="col-md-7 wrap-about pr-md-4 ftco-animate">
-          <h2 class="mb-4">Welcome to Consolution</h2>
-          <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word.</p>
-          <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-          <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their</p>
+          <h2 class="mb-4">Welcome to Codies</h2>
+          <p>Codies is a professional software and website application development high tech company based in Pakistan.</p>
+          <p>We are specialized in Web and Mobile Application Design & Development, Technical Solutions, project management, strategic technology consulting, client-server application, software development, system integration, content management, database management and application development,</p>
+          <p>We endeavor on highly seasoned, highly effective and proficient, cost-effective and timely delivered software, and services. We try to assist companies that are at any stage of the software development cycle.</p>
+          <p>Since, we have been working on establishing our technological business locally as well as globally by entertaining a variety of clients ranging from startups to well-reputed organization. We are a company of experienced employees working on different platforms.</p>
+          <p>The aim is to provide user-friendly web and application experiences and facilitate day to day tasks utilizing unique and effective website solutions.</p>
+          <p>The perception of our company in dealing with the projects is slightly different than that of others. Whenever Codies is presented with a task or a project, we see it as a thrilling game with multiple stages. Each stage is an achievement in itself to accomplish. At every stage of the project, whether it is understanding the project requirements and goal, or to design relevant architecture to implement and maintain the system– we bring in our use the most effective and advanced tools which are updated systematically. This is the way by which each stage of the project ensures the successful completion of itself, as well as it increases the effectiveness of the project and avoids typical issues from occurring.</p>
         </div>
       </div>
     </div>
-  </section>
-
-  <section class="ftco-section ftco-counter">
-    <div class="container">
-      <div class="row justify-content-center mb-5 pb-2 d-flex">
-        <div class="col-md-6 align-items-stretch d-flex">
-          <div class="img img-video d-flex align-items-center" style="background-image: url(images/about.jpg);">
-            <div class="video justify-content-center">
-              <a href="https://vimeo.com/45830194" class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
-                <span class="ion-ios-play"></span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 heading-section ftco-animate pl-lg-5 pt-md-0 pt-5">
-          <h2 class="mb-4">We Are the Best Consulting Agency</h2>
-          <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-          <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-        </div>
-      </div>	
-    </div>
-  </section>
-  
+  </section> 
 @endsection
+
+<script>
+    function readFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("readMore");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less"; 
+        moreText.style.display = "inline";
+      }
+    }
+    </script>

@@ -1,0 +1,34 @@
+@font-face {
+    font-family: Raleway-Bold;
+    src: url('../fonts/Raleway/Raleway-Bold.ttf')
+}
+.nav-box-shadow {
+    z-index: 2;
+    border-bottom: 2px solid #A9A9A9; 
+    height: 100px;
+    box-shadow: 0 1px 5px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 1px 5px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 1px 5px 0px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0 1px 5px 0px rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: 0 1px 5px 0px rgba(0, 0, 0, 0.2);
+}
+.nav-item {
+    font-family: Raleway-Bold;
+    font-size: 1.1rem;
+    margin: 1px;
+    padding: 0rem 0.75rem;
+    border: 1px solid white;
+}
+.nav-item:hover {
+    border: 1px solid #6c84c2;
+    border-radius: 10px;
+    color: #6c84c2 !important;
+}
+.active-nav-link {
+    border: 1px solid #6c84c2;
+    background-color: #6c84c2;
+    border-radius: 10px;
+}
+.active-nav-link a {
+    color: white !important;
+}

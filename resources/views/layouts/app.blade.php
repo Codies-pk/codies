@@ -7,8 +7,6 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>{{ !empty($title) ? $title : 'Page Not Found' }} - Codies</title>
 
-  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&display=swap" rel="stylesheet">
-
   <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
   <link rel="stylesheet" href="css/animate.css">
 
@@ -23,23 +21,28 @@
   <link rel="stylesheet" href="css/flaticon.css">
   <link rel="stylesheet" href="css/icomoon.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/custom.css">
 
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #D3D3D3;">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white nav-box-shadow">
     <div class="container">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="oi oi-menu"></span> Menu
       </button>
       <img src="images/logo.png" class="d-lg-none">
-      <img src="images/logo.png" class="position-absolute d-lg-block d-none">
-      <div class="collapse navbar-collapse justify-content-md-center" id="ftco-nav" style="height: 80px;" >
-          <ul class="navbar-nav font-weight-bold">
-            <li class="nav-item {{ Request::is('/') ? 'active' : '' }}"><a href="\" class="nav-link pl-0">Home</a></li>
-            <li class="nav-item {{ Request::is('about') ? 'active' : '' }}"><a href="\about" class="nav-link">About</a></li>
-            <li class="nav-item {{ Request::is('portfolio') ? 'active' : '' }}"><a href="\portfolio" class="nav-link">Portfolio</a></li>
-            <li class="nav-item {{ Request::is('services') ? 'active' : '' }}"><a href="\services" class="nav-link">Services</a></li>
-            <li class="nav-item {{ Request::is('contact') ? 'active' : '' }}"><a href="\contact" class="nav-link">Contact</a></li>
+      <div class="position-absolute d-lg-block d-none">
+        <a href="/">
+          <img src="images/logo.png">
+        </a>
+      </div>
+      <div class="collapse navbar-collapse justify-content-md-center" id="ftco-nav" >
+          <ul class="navbar-nav">
+            <li class="nav-item {{ Request::is('/') ? 'active-nav-link' : '' }}"><a href="\" class="nav-link">Home</a></li>
+            <li class="nav-item {{ Request::is('about') ? 'active-nav-link' : '' }}"><a href="\about" class="nav-link">About</a></li>
+            <li class="nav-item {{ Request::is('portfolio') ? 'active-nav-link' : '' }}"><a href="\portfolio" class="nav-link">Portfolio</a></li>
+            <li class="nav-item {{ Request::is('services') ? 'active-nav-link' : '' }}"><a href="\services" class="nav-link">Services</a></li>
+            <li class="nav-item {{ Request::is('contact') ? 'active-nav-link' : '' }}"><a href="\contact" class="nav-link">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -57,7 +60,7 @@
               <ul>
                 <li><span class="icon icon-map-marker"></span><span class="text">A-7, Block 2, Gulshan-e-iqbal, Karachi.</span></li>
                 <li><a href="#"><span class="icon icon-phone"></span><span class="text">+92-334-0305745</span></a></li>
-                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@codies.pk</span></a></li>
+                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@codies.iok</span></a></li>
               </ul>
             </div>
           </div>
@@ -101,7 +104,7 @@
           <p>
             Copyright &copy;<script>
               document.write(new Date().getFullYear());
-            </script> All rights reserved | <a href="https://codies.pk" target="_blank">Codies</a>
+            </script> All rights reserved | <a href="https://codies.io" target="_blank">Codies</a>
           </p>
         </div>
       </div>

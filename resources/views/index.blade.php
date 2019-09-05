@@ -44,7 +44,7 @@
                     <div class="col-lg-4">
                         <div class="services text-center">
                             <div class="icon mt-2 d-flex justify-content-center align-items-center"><span
-                                    class="flaticon-collaboration"></span></div>
+                                    class="flaticon-time"></span></div>
                             <div class="text media-body">
                                 <h3>Timely Development</h3>
                                 <p>Codies has a whole unit team of professionals to identify and analyze the issues that occur in the projects and to work on safe risk analysis to eliminate the causes of the issues and<span id="dots1">...</span><span id="more1" style="display: none;"> avoid negative impacts on the projects underhand. Our experts are always here to help the organization grow by mitigating those risks that may prove to be harmful and by conquering those risks that are taken to benefit the project in every way possible.</span></p>
@@ -55,9 +55,9 @@
                     <div class="col-lg-4">
                         <div class="services text-center">
                             <div class="icon mt-2 d-flex justify-content-center align-items-center"><span
-                                    class="flaticon-search-engine"></span></div>
+                                    class="flaticon-customer-review"></span></div>
                             <div class="text media-body">
-                                <h3>Customer Satisfection</h3>
+                                <h3>Customer Satisfaction</h3>
                                 <p>Codies has a whole unit team of professionals to identify and analyze the issues that occur in the projects and to work on safe risk analysis to eliminate the causes of the issues and<span id="dots2">...</span><span id="more2" style="display: none;"> to avoid negative impacts on the projects underhand. Our experts are always here to help the organization grow by mitigating those risks that may prove to be harmful and by conquering those risks that are taken to benefit the project in every way possible.</span></p>
                                 <p style="cursor:pointer;" onclick="readFunction2()" id="readMore2">Read more</a>
                             </div>
@@ -66,7 +66,7 @@
                     <div class="col-lg-4">
                         <div class="services text-center">
                             <div class="icon mt-2 d-flex justify-content-center align-items-center"><span
-                                    class="flaticon-search-engine"></span></div>
+                                    class="flaticon-develop"></span></div>
                             <div class="text media-body">
                                 <h3>Risk Analysis</h3>
                                 <p>Codies has a whole unit team of professionals to identify and analyze the issues that occur in the projects and to work on safe risk analysis to eliminate the causes of the issues and <span id="dots3">...</span><span id="more3" style="display: none;">to avoid negative impacts on the projects underhand. Our experts are always here to help the organization grow by mitigating those risks that may prove to be harmful and by conquering those risks that are taken to benefit the project in every way possible.</span></p>
@@ -94,7 +94,7 @@
             <div class="col-lg-4 d-flex">
                 <div class="services-2 noborder-left text-center ftco-animate">
                     <div class="icon mt-2 d-flex justify-content-center align-items-center"><span
-                            class="flaticon-analysis"></span></div>
+                            class="flaticon-monitor"></span></div>
                     <div class="text media-body">
                         <h3>Website Development</h3>
                         <P>Our web development team creates intuitive user experiences wrapped up in beautiful designs. Everything we create is custom and precisely made to your specification. Our web apps have enabled businesses to maximize their ROI, and more.</P>
@@ -104,7 +104,7 @@
             <div class="col-lg-4 d-flex">
                 <div class="services-2 text-center ftco-animate">
                     <div class="icon mt-2 d-flex justify-content-center align-items-center"><span
-                            class="flaticon-business"></span></div>
+                            class="flaticon-application-development"></span></div>
                     <div class="text media-body">
                         <h3>Mobile App Development</h3>
                         <p>Our team builds elegant apps for all smartphone platforms. Our engineers work closely with you to understand your specifications and develop apps that provide an intuitive end user experience. Our ongoing support ensures your app is ever-ready for your users.</p>
@@ -114,7 +114,7 @@
             <div class="col-lg-4 d-flex">
                 <div class="services-2 text-center ftco-animate">
                     <div class="icon mt-2 d-flex justify-content-center align-items-center"><span
-                            class="flaticon-insurance"></span></div>
+                            class="flaticon-web"></span></div>
                     <div class="text media-body">
                         <h3>Software Solutions</h3>
                         <p>Leveraging the latest developments in tech</p>
@@ -124,7 +124,7 @@
             <div class="col-lg-4 d-flex">
                 <div class="services-2 noborder-left noborder-bottom text-center ftco-animate">
                     <div class="icon mt-2 d-flex justify-content-center align-items-center"><span
-                            class="flaticon-money"></span></div>
+                            class="flaticon-computer-graphic"></span></div>
                     <div class="text media-body">
                         <h3>Graphics Designing</h3>
                         <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
@@ -134,7 +134,7 @@
             <div class="col-lg-4 d-flex">
                 <div class="services-2 text-center noborder-bottom ftco-animate">
                     <div class="icon mt-2 d-flex justify-content-center align-items-center"><span
-                            class="flaticon-rating"></span></div>
+                            class="flaticon-online-shop"></span></div>
                     <div class="text media-body">
                         <h3>Onilne Marketing</h3>
                         <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
@@ -144,7 +144,7 @@
             <div class="col-lg-4 d-flex">
                 <div class="services-2 text-center noborder-bottom ftco-animate">
                     <div class="icon mt-2 d-flex justify-content-center align-items-center"><span
-                            class="flaticon-search-engine"></span></div>
+                            class="flaticon-ad"></span></div>
                     <div class="text media-body">
                         <h3>Content Writing</h3>
                         <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>

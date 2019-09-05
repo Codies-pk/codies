@@ -18,7 +18,7 @@
 
   <link rel="stylesheet" href="css/ionicons.min.css">
 
-  <link rel="stylesheet" href="css/flaticon.css">
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
   <link rel="stylesheet" href="css/icomoon.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/custom.css">
@@ -60,7 +60,7 @@
               <ul>
                 <li><span class="icon icon-map-marker"></span><span class="text">A-7, Block 2, Gulshan-e-iqbal, Karachi.</span></li>
                 <li><a href="#"><span class="icon icon-phone"></span><span class="text">+92-334-0305745</span></a></li>
-                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@codies.iok</span></a></li>
+                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@codies.io</span></a></li>
               </ul>
             </div>
           </div>

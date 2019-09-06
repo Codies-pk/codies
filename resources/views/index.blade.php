@@ -10,9 +10,9 @@
             <div class="row no-gutters slider-text align-items-center justify-content-start"
                 data-scrollax-parent="true">
                 <div class="col-md-7 ftco-animate">
-                    <span class="subheading">Welcome to Consolve</span>
+                    <span class="subheading">Welcome to Codies</span>
                     <h1 class="mb-4">We Are The Best Consulting Agency</h1>
-                    <p><a href="#" class="btn btn-primary px-4 py-3 mt-3">Our Services</a></p>
+                    <p><a href="/services" class="btn btn-primary px-4 py-3 mt-3">Our Services</a></p>
                 </div>
             </div>
         </div>
@@ -25,7 +25,7 @@
                 data-scrollax-parent="true">
                 <div class="col-md-7 ftco-animate">
                     <span class="subheading">Todays Talent, Tommorow Success</span>
-                    <h1 class="mb-4">We Help to Grow Your Business</h1>
+                    <h1 class="mb-4">We Help to Grow<br> Your Business</h1>
                     <p><a href="#" class="btn btn-primary px-4 py-3 mt-3">Our Services</a></p>
                 </div>
             </div>
@@ -37,7 +37,7 @@
     <div class="container">
         <div class="row d-flex">
             <div class="col-md-12 wrap-about pr-md-4 ftco-animate">
-                <h2 class="mb-4">Our Main Features</h2>
+                <h2 class="mb-4 text-center">Our Main Features</h2>
                 <p>
                 </p>
                 <div class="row mt-5">
@@ -47,8 +47,8 @@
                                     class="flaticon-time"></span></div>
                             <div class="text media-body">
                                 <h3>Timely Development</h3>
-                                <p>Codies has a whole unit team of professionals to identify and analyze the issues that occur in the projects and to work on safe risk analysis to eliminate the causes of the issues and<span id="dots1">...</span><span id="more1" style="display: none;"> avoid negative impacts on the projects underhand. Our experts are always here to help the organization grow by mitigating those risks that may prove to be harmful and by conquering those risks that are taken to benefit the project in every way possible.</span></p>
-                                <p style="cursor:pointer;" onclick="readFunction1()" id="readMore1">Read more</a>
+                                <p>We respect your time by not only facilitating you with our best services but that too in fixed schedule and meeting deadlines. Our firm belief is to create an environment<span id="dots1">...</span><span id="more1" style="display: none;"> for both our	employees and clients that is organized, structured and friendly.</span></p>
+                                <p style="cursor:pointer;" onclick="readFunction1()" id="readMore1">Read more</p>
                             </div>
                         </div>
                     </div>
@@ -58,8 +58,8 @@
                                     class="flaticon-customer-review"></span></div>
                             <div class="text media-body">
                                 <h3>Customer Satisfaction</h3>
-                                <p>Codies has a whole unit team of professionals to identify and analyze the issues that occur in the projects and to work on safe risk analysis to eliminate the causes of the issues and<span id="dots2">...</span><span id="more2" style="display: none;"> to avoid negative impacts on the projects underhand. Our experts are always here to help the organization grow by mitigating those risks that may prove to be harmful and by conquering those risks that are taken to benefit the project in every way possible.</span></p>
-                                <p style="cursor:pointer;" onclick="readFunction2()" id="readMore2">Read more</a>
+                                <p>We value our customer’s satisfaction and their peace of mind regarding their problems. Our business expertise, years of experience and knowledge lead us to engineer<span id="dots2">...</span><span id="more2" style="display: none;"> perfect software solutions every time. We emphasize over continuous involvement of our clients with the project	to analyze their requirements and project’s functionality, and to develop result that satisfies the need of our clients.</span></p>
+                                <p style="cursor:pointer;" onclick="readFunction2()" id="readMore2">Read more</p>
                             </div>
                         </div>
                     </div>
@@ -69,8 +69,8 @@
                                     class="flaticon-develop"></span></div>
                             <div class="text media-body">
                                 <h3>Risk Analysis</h3>
-                                <p>Codies has a whole unit team of professionals to identify and analyze the issues that occur in the projects and to work on safe risk analysis to eliminate the causes of the issues and <span id="dots3">...</span><span id="more3" style="display: none;">to avoid negative impacts on the projects underhand. Our experts are always here to help the organization grow by mitigating those risks that may prove to be harmful and by conquering those risks that are taken to benefit the project in every way possible.</span></p>
-                                <p style="cursor:pointer;" onclick="readFunction3()" id="readMore3">Read more</a>
+                                <p>Codies has a whole unit team of professionals to identify and analyze the issues that occur in the projects and to work on safe risk analysis to eliminate the causes of the <span id="dots3">...</span><span id="more3" style="display: none;">issues and to avoid negative impacts on the projects underhand. Our experts are always here to help the organization grow by mitigating those risks that may prove to be harmful and by conquering those risks that are taken to benefit the project in every way possible.</span></p>
+                                <p style="cursor:pointer;" onclick="readFunction3()" id="readMore3">Read more</p>
                             </div>
                         </div>
                     </div>
@@ -83,11 +83,9 @@
 
 <section class="ftco-section mb-5">
     <div class="container">
-        <div class="row justify-content-center mb-5 pb-2">
+        <div class="row justify-content-center mb-2 pb-2">
             <div class="col-md-8 text-center heading-section ftco-animate">
-                <h2 class="mb-4">Our Best Services</h2>
-                <p>Separated they live in. A small river named Duden flows by their place and supplies it with the
-                    necessary regelialia. It is a paradisematic country</p>
+                <h2 class="mb-4">Our Main Services</h2>
             </div>
         </div>
         <div class="row no-gutters">
@@ -97,7 +95,8 @@
                             class="flaticon-monitor"></span></div>
                     <div class="text media-body">
                         <h3>Website Development</h3>
-                        <P>Our web development team creates intuitive user experiences wrapped up in beautiful designs. Everything we create is custom and precisely made to your specification. Our web apps have enabled businesses to maximize their ROI, and more.</P>
+                        <P>Our web development team creates intuitive user experiences wrapped up in beautiful designs. Everything we create is custom and precisely made to your specification. Our web apps have <span id="dots4">...</span><span id="more4" style="display: none;">enabled businesses to maximize their ROI, and more.</span></P>
+                        <p style="cursor:pointer;" onclick="readFunction4()" id="readMore4">Read more</p>
                     </div>
                 </div>
             </div>
@@ -107,7 +106,8 @@
                             class="flaticon-application-development"></span></div>
                     <div class="text media-body">
                         <h3>Mobile App Development</h3>
-                        <p>Our team builds elegant apps for all smartphone platforms. Our engineers work closely with you to understand your specifications and develop apps that provide an intuitive end user experience. Our ongoing support ensures your app is ever-ready for your users.</p>
+                        <p>Our team builds elegant apps for all smartphone platforms. Our engineers work closely with you to understand your specifications and develop apps that provide an intuitive end user <span id="dots5">...</span><span id="more5" style="display: none;">experience. Our ongoing support ensures your app is ever-ready for your users.</span></p>
+                        <p style="cursor:pointer;" onclick="readFunction5()" id="readMore5">Read more</p>
                     </div>
                 </div>
             </div>
@@ -117,7 +117,7 @@
                             class="flaticon-web"></span></div>
                     <div class="text media-body">
                         <h3>Software Solutions</h3>
-                        <p>Leveraging the latest developments in tech</p>
+                        <p>Test our team of experts that are here to comprehend the client’s requirement to the core after which they provide solutions observed under a high tech environment using advanced tools.</p>
                     </div>
                 </div>
             </div>
@@ -127,17 +127,8 @@
                             class="flaticon-computer-graphic"></span></div>
                     <div class="text media-body">
                         <h3>Graphics Designing</h3>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 d-flex">
-                <div class="services-2 text-center noborder-bottom ftco-animate">
-                    <div class="icon mt-2 d-flex justify-content-center align-items-center"><span
-                            class="flaticon-online-shop"></span></div>
-                    <div class="text media-body">
-                        <h3>Onilne Marketing</h3>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+                        <p>Whether you want a project that looks trendy, modern, plain or technical, we offer you a treasure of creative designs to improve business agility and to enhance its appearance. The <span id="dots6">...</span><span id="more6" style="display: none;">advanced and beautiful variety of patterns development not only catches the user’s eye but also makes him crave to explore more about you.</span></p>
+                        <p style="cursor:pointer;" onclick="readFunction6()" id="readMore6">Read more</p>
                     </div>
                 </div>
             </div>
@@ -146,8 +137,20 @@
                     <div class="icon mt-2 d-flex justify-content-center align-items-center"><span
                             class="flaticon-ad"></span></div>
                     <div class="text media-body">
+                        <h3>Onilne Marketing</h3>
+                        <p>The leading business is one that appears on the first page of GOOGLE because of its efficient online marketing. Codies make sure to notch up your business ideas by facilitating <span id="dots7">...</span><span id="more7" style="display: none;">you with its exceptional online marketing services.</span></p>
+                        <p style="cursor:pointer;" onclick="readFunction7()" id="readMore7">Read more</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 d-flex">
+                <div class="services-2 text-center noborder-bottom ftco-animate">
+                    <div class="icon mt-2 d-flex justify-content-center align-items-center"><span
+                            class="flaticon-writing"></span></div>
+                    <div class="text media-body">
                         <h3>Content Writing</h3>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+                        <p>The leading business is one that appears on the first page of GOOGLE because of its efficient online marketing. Codies make sure to notch up your business ideas by facilitating <span id="dots8">...</span><span id="more8" style="display: none;">you with its exceptional online marketing services.</span></p>
+                        <p style="cursor:pointer;" onclick="readFunction8()" id="readMore8">Read more</p>
                     </div>
                 </div>
             </div>
@@ -181,13 +184,13 @@
         <div class="row no-gutters">
             <div class="col-md-3">
                 <div class="project img ftco-animate d-flex justify-content-center align-items-center"
-                    style="background-image: url(images/project-2.jpg);">
+                    style="background-image: url(images/project_1.jpg);">
                     <div class="overlay"></div>
-                    <a href="#" class="btn-site d-flex align-items-center justify-content-center"><span
+                    <a href="https://www.arzu.pk/" target="_blank" class="btn-site d-flex align-items-center justify-content-center"><span
                             class="icon-subdirectory_arrow_right"></span></a>
                     <div class="text text-center p-4">
-                        <h3><a href="#">Branding &amp; Illustration Design</a></h3>
-                        <span>Web Design</span>
+                        <h3><a href="https://www.arzu.pk/" target="_blank">Online Shopping Site</a></h3>
+                        <span>Arzu.pk</span>
                     </div>
                 </div>
             </div>
@@ -356,50 +359,3 @@
 </section>
 @endsection
 
-<script>
-    function readFunction1() {
-        var dots = document.getElementById("dots1");
-        var moreText = document.getElementById("more1");
-        var btnText = document.getElementById("readMore1");
-    
-        if (dots.style.display === "none") {
-        dots.style.display = "inline";
-        btnText.innerHTML = "Read more"; 
-        moreText.style.display = "none";
-        } else {
-        dots.style.display = "none";
-        btnText.innerHTML = "Read less"; 
-        moreText.style.display = "inline";
-        }
-    }
-    function readFunction2() {
-        var dots = document.getElementById("dots2");
-        var moreText = document.getElementById("more2");
-        var btnText = document.getElementById("readMore2");
-    
-        if (dots.style.display === "none") {
-        dots.style.display = "inline";
-        btnText.innerHTML = "Read more"; 
-        moreText.style.display = "none";
-        } else {
-        dots.style.display = "none";
-        btnText.innerHTML = "Read less"; 
-        moreText.style.display = "inline";
-        }
-    }
-    function readFunction3() {
-        var dots = document.getElementById("dots3");
-        var moreText = document.getElementById("more3");
-        var btnText = document.getElementById("readMore3");
-    
-        if (dots.style.display === "none") {
-        dots.style.display = "inline";
-        btnText.innerHTML = "Read more"; 
-        moreText.style.display = "none";
-        } else {
-        dots.style.display = "none";
-        btnText.innerHTML = "Read less"; 
-        moreText.style.display = "inline";
-        }
-    }
-</script>

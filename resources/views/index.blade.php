@@ -138,7 +138,7 @@
                             class="flaticon-ad"></span></div>
                     <div class="text media-body">
                         <h3>Onilne Marketing</h3>
-                        <p>The leading business is one that appears on the first page of GOOGLE because of its efficient online marketing. Codies make sure to notch up your business ideas by facilitating <span id="dots7">...</span><span id="more7" style="display: none;">you with its exceptional online marketing services.</span></p>
+                        <p>Codies facilitate its clients and businesses to market thier products or services. We make sure to notch up your business ideas by facilitating <span id="dots7">...</span><span id="more7" style="display: none;">you with its exceptional online marketing services.</span></p>
                         <p style="cursor:pointer;" onclick="readFunction7()" id="readMore7">Read more</p>
                     </div>
                 </div>
@@ -149,7 +149,7 @@
                             class="flaticon-writing"></span></div>
                     <div class="text media-body">
                         <h3>Content Writing</h3>
-                        <p>The leading business is one that appears on the first page of GOOGLE because of its efficient online marketing. Codies make sure to notch up your business ideas by facilitating <span id="dots8">...</span><span id="more8" style="display: none;">you with its exceptional online marketing services.</span></p>
+                        <p>A business seems scrappy unless you add a spark of content in it to elaborate its features to the customers. We make sure to facilitate you with commendable content marketing<span id="dots8">...</span><span id="more8" style="display: none;"> service that adds valuable and relative content in your business, to attract your targeted audience! Our content stands out in the market of millions of other content creators.</span></p>
                         <p style="cursor:pointer;" onclick="readFunction8()" id="readMore8">Read more</p>
                     </div>
                 </div>
@@ -176,15 +176,12 @@
         <div class="row no-gutters justify-content-center mb-5">
             <div class="col-md-7 text-center heading-section ftco-animate">
                 <h2 class="mb-4">Our Recent Projects</h2>
-                <p>Separated they live in. A small river named Duden flows by their place and supplies it with the
-                    necessary regelialia. It is a paradisematic country</p>
-                <p></p>
             </div>
         </div>
         <div class="row no-gutters">
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <div class="project img ftco-animate d-flex justify-content-center align-items-center"
-                    style="background-image: url(images/project_1.jpg);">
+                    style="background-image: url(images/project-1.jpg);">
                     <div class="overlay"></div>
                     <a href="https://www.arzu.pk/" target="_blank" class="btn-site d-flex align-items-center justify-content-center"><span
                             class="icon-subdirectory_arrow_right"></span></a>
@@ -194,44 +191,44 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <div class="project img ftco-animate d-flex justify-content-center align-items-center"
-                    style="background-image: url(images/project-1.jpg);">
+                    style="background-image: url(images/project-2.jpg);">
                     <div class="overlay"></div>
-                    <a href="#" class="btn-site d-flex align-items-center justify-content-center"><span
+                    <a href="https://simpplo.com/" target="_blank" class="btn-site d-flex align-items-center justify-content-center"><span
                             class="icon-subdirectory_arrow_right"></span></a>
                     <div class="text text-center p-4">
-                        <h3><a href="#">Branding &amp; Illustration Design</a></h3>
-                        <span>Web Design</span>
+                        <h3><a href="https://simpplo.com/" target="_blank">Simpplo</a></h3>
+                        <span>simpplo.com</span>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <div class="project img ftco-animate d-flex justify-content-center align-items-center"
                     style="background-image: url(images/project-3.jpg);">
                     <div class="overlay"></div>
-                    <a href="#" class="btn-site d-flex align-items-center justify-content-center"><span
+                    <a href="http://remindzapp.com/" target="_blank" class="btn-site d-flex align-items-center justify-content-center"><span
                             class="icon-subdirectory_arrow_right"></span></a>
                     <div class="text text-center p-4">
-                        <h3><a href="#">Branding &amp; Illustration Design</a></h3>
-                        <span>Web Design</span>
+                        <h3><a href="http://remindzapp.com/" target="_blank">Remindz Mobile Application</a></h3>
+                        <span>remindzapp.com</span>
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <div class="project img ftco-animate d-flex justify-content-center align-items-center"
                     style="background-image: url(images/project-4.jpg);">
                     <div class="overlay"></div>
-                    <a href="#" class="btn-site d-flex align-items-center justify-content-center"><span
+                    <a href="http://www.civixa.com/" target="_blank" class="btn-site d-flex align-items-center justify-content-center"><span
                             class="icon-subdirectory_arrow_right"></span></a>
                     <div class="text text-center p-4">
-                        <h3><a href="#">Branding &amp; Illustration Design</a></h3>
-                        <span>Web Design</span>
+                        <h3><a href="http://www.civixa.com/" target="_blank">Civixa Enabling AI transformation</a></h3>
+                        <span>civixa.com</span>
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <div class="project img ftco-animate d-flex justify-content-center align-items-center"
                     style="background-image: url(images/project-5.jpg);">
                     <div class="overlay"></div>
@@ -243,33 +240,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <div class="project img ftco-animate d-flex justify-content-center align-items-center"
                     style="background-image: url(images/project-6.jpg);">
-                    <div class="overlay"></div>
-                    <a href="#" class="btn-site d-flex align-items-center justify-content-center"><span
-                            class="icon-subdirectory_arrow_right"></span></a>
-                    <div class="text text-center p-4">
-                        <h3><a href="#">Branding &amp; Illustration Design</a></h3>
-                        <span>Web Design</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="project img ftco-animate d-flex justify-content-center align-items-center"
-                    style="background-image: url(images/project-7.jpg);">
-                    <div class="overlay"></div>
-                    <a href="#" class="btn-site d-flex align-items-center justify-content-center"><span
-                            class="icon-subdirectory_arrow_right"></span></a>
-                    <div class="text text-center p-4">
-                        <h3><a href="#">Branding &amp; Illustration Design</a></h3>
-                        <span>Web Design</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="project img ftco-animate d-flex justify-content-center align-items-center"
-                    style="background-image: url(images/project-8.jpg);">
                     <div class="overlay"></div>
                     <a href="#" class="btn-site d-flex align-items-center justify-content-center"><span
                             class="icon-subdirectory_arrow_right"></span></a>
@@ -283,18 +256,15 @@
     </div>
 </section>
 
-
 <section class="ftco-section ftco-consult ftco-no-pt ftco-no-pb" style="background-image: url('images/default_bg.jpg');"
     data-stellar-background-ratio="0.5">
     <div class="overlay"></div>
     <div class="container">
         <div class="row justify-content-end">
-            <div class="col-md-6 py-3 px-md-5">
+            <div class="col-md-6 p-3 px-md-5">
                 <div class="py-md-5">
                     <div class="heading-section heading-section-white ftco-animate mb-5">
                         <h2 class="mb-4">Request A Quote</h2>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                            there live the blind texts.</p>
                     </div>
                     <form class="appointment-form ftco-animate">
                         {{ csrf_field() }}
@@ -325,31 +295,58 @@
         </div>
     </div>
 </section>
-<section class="ftco-section testimony-section">
+<section class="ftco-section testimony-section mb-5">
     <div class="container">
         <div class="row justify-content-center mb-5">
             <div class="col-md-8 text-center heading-section ftco-animate">
                 <h2 class="mb-4">Our Clients Says</h2>
-                <p>Separated they live in. A small river named Duden flows by their place and supplies it with the
-                    necessary regelialia. It is a paradisematic country</p>
             </div>
         </div>
         <div class="row ftco-animate justify-content-center">
-            <div class="col-md-12">
-                <div class="carousel-testimony owl-carousel">
-                    <div class="item">
-                        <div class="testimony-wrap d-flex">
-                            <div class="user-img" style="background-image: url(images/person_1.jpg)">
-                            </div>
-                            <div class="text pl-4">
-                                <span class="quote d-flex align-items-center justify-content-center">
-                                    <i class="icon-quote-left"></i>
-                                </span>
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia and
-                                    Consonantia, there live the blind texts.</p>
-                                <p class="name">Racky Henderson</p>
-                                <span class="position">Father</span>
-                            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="item">
+                    <div class="testimony-wrap d-flex">
+                        <div class="user-img" style="background-image: url(images/person_1.jpg)">
+                        </div>
+                        <div class="text pl-4">
+                            <span class="quote d-flex align-items-center justify-content-center">
+                                <i class="icon-quote-left"></i>
+                            </span>
+                            <p>Codies provided quality work and made changes as required.There communications detailed and it was a pleasure working with Codies.</p>
+                            <p class="name">Sheikh Waqas Ahmed</p>
+                            <span class="position">CEO</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="item">
+                    <div class="testimony-wrap d-flex">
+                        <div class="user-img" style="background-image: url(images/person_2.jpg)">
+                        </div>
+                        <div class="text pl-4">
+                            <span class="quote d-flex align-items-center justify-content-center">
+                                <i class="icon-quote-left"></i>
+                            </span>
+                            <p>Professional with quality work. Also, with good attitude. I will definitely work with Codies again. Thanks a lot. Really great work by Codies.</p>
+                            <p class="name">Racky Henderson</p>
+                            <span class="position">Manager</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="item">
+                    <div class="testimony-wrap d-flex">
+                        <div class="user-img" style="background-image: url(images/person_3.jpg)">
+                        </div>
+                        <div class="text pl-4">
+                            <span class="quote d-flex align-items-center justify-content-center">
+                                <i class="icon-quote-left"></i>
+                            </span>
+                            <p>Amazing Job! Codies not only completed the job in a fraction of the time, They recommended a more effective way to approach the job.</p>
+                            <p class="name">Alveena Sohail</p>
+                            <span class="position">Director</span>
                         </div>
                     </div>
                 </div>
@@ -358,4 +355,3 @@
     </div>
 </section>
 @endsection
-

@@ -19,3 +19,14 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
 </IfModule>
+
+RewriteCond %{HTTP_REFERER} !^http://codies.io/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://codies.io$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.codies.io/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.codies.io$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://codies.io/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://codies.io$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.codies.io/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.codies.io$      [NC]
+RewriteRule .*\.(jpg|jpeg|gif|png|bmp)$ - [F,NC]
+

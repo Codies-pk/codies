@@ -30,14 +30,16 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="oi oi-menu"></span> Menu
       </button>
-      <img src="images/logo.png" class="d-lg-none">
+      <a href="/"  class="d-lg-none">
+        <img src="images/logo.png">
+      </a>
       <div class="position-absolute d-lg-block d-none">
         <a href="/">
           <img src="images/logo.png">
         </a>
       </div>
       <div class="collapse navbar-collapse justify-content-md-center" id="ftco-nav" >
-          <ul class="navbar-nav">
+          <ul class="navbar-nav" style="background-color: #ffffff">
             <li class="nav-item {{ Request::is('/') ? 'active-nav-link' : '' }}"><a href="\" class="nav-link">Home</a></li>
             <li class="nav-item {{ Request::is('about') ? 'active-nav-link' : '' }}"><a href="\about" class="nav-link">About</a></li>
             <li class="nav-item {{ Request::is('portfolio') ? 'active-nav-link' : '' }}"><a href="\portfolio" class="nav-link">Portfolio</a></li>
@@ -81,10 +83,10 @@
         <div class="col-md-6 col-lg-3">
           <div class="ftco-footer-widget mb-5">
             <h2 class="ftco-heading-2">Subscribe Us!</h2>
-            <form action="#" class="subscribe-form">
+            <form class="subscribe-form">
               <div class="form-group">
-                <input type="text" class="form-control mb-2 text-center" placeholder="Enter email address">
-                <input type="submit" value="Subscribe" class="form-control submit px-3">
+                <input type="text" class="form-control mb-2 text-center" placeholder="Enter email address" required>
+                <input type="button" value="Subscribe" class="form-control submit px-3">
               </div>
             </form>
           </div>
@@ -92,7 +94,7 @@
             <h2 class="ftco-heading-2 mb-0">Connect With Us</h2>
             <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
               <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-              <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+              <li class="ftco-animate"><a href="https://www.facebook.com/Codies-115632089815004/" target="_blank"><span class="icon-facebook"></span></a></li>
               <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
             </ul>
           </div>
@@ -104,7 +106,7 @@
           <p>
             Copyright &copy;<script>
               document.write(new Date().getFullYear());
-            </script> All rights reserved | <a href="https://codies.io" target="_blank">Codies</a>
+            </script> All rights reserved | <a href="/" target="_blank">Codies</a>
           </p>
         </div>
       </div>
@@ -115,7 +117,7 @@
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
       <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
-      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" /></svg></div>
+      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#6c84c2" /></svg></div>
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
   <script src="js/popper.min.js"></script>

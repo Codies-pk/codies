@@ -5,7 +5,7 @@
 
 <section class="home-slider owl-carousel">
     <div class="slider-item" style="background-image:url(images/bg_1.jpg);">
-        <div class="overlay"></div>
+        {{-- <div class="overlay"></div>
         <div class="container">
             <div class="row no-gutters slider-text align-items-center justify-content-start"
                 data-scrollax-parent="true">
@@ -15,11 +15,11 @@
                     <p><a href="/services" class="btn btn-primary px-4 py-3 mt-3">Our Services</a></p>
                 </div>
             </div>
-        </div>
+        </div> --}}
     </div>
 
     <div class="slider-item" style="background-image:url(images/bg_2.jpg);">
-        <div class="overlay"></div>
+        {{-- <div class="overlay"></div>
         <div class="container">
             <div class="row no-gutters slider-text align-items-center justify-content-start"
                 data-scrollax-parent="true">
@@ -29,7 +29,7 @@
                     <p><a href="#" class="btn btn-primary px-4 py-3 mt-3">Our Services</a></p>
                 </div>
             </div>
-        </div>
+        </div> --}}
     </div>
 </section>
 

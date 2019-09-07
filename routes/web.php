@@ -16,3 +16,4 @@ Route::get('/about', 'HomeController@about');
 Route::get('/services', 'HomeController@services');
 Route::get('/portfolio', 'HomeController@portfolio');
 Route::get('/contact',  'HomeController@contact');
+Route::post('/contactpost',  'HomeController@contactPost');

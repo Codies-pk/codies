@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Quotes;
+use App\Contact;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -24,6 +25,23 @@ class HomeController extends Controller
     }
 
     public function contact() {
+        return view('contact')->with('title', 'Contact');
+    }
+    public function contactPost(Request $request) {
+        $this->validate($request, [
+            'name'      =>  'required|min:3|max:20',
+            'email'     =>  'required|email|max:191',
+            'subject'   =>  'required|min:3|max:191',
+            'message'   =>  'required|min:3|max:191'
+        ]);
+
+        $conatct = new Contact;
+        $conatct->name      =   $request->input('name');
+        $conatct->email     =   $request->input('email');
+        $conatct->subject   =   $request->input('subject');
+        $conatct->message   =   $request->input('message');
+        $conatct->save();
+
         return view('contact')->with('title', 'Contact');
     }
 }

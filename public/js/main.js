@@ -272,47 +272,70 @@ AOS.init({
                     "X-CSRF-TOKEN": $('meta[name="_token"]').attr("content")
                 }
             });
-            jQuery.ajax({
+
+            const submit_button = $(this);
+            const valueOfButton = submit_button.val();
+            submit_button.val("");
+            submit_button.addClass("ajaxRequestSubmit");
+            submit_button.attr("disabled", true);
+
+            const Toast = Swal.mixin({
+                toast: true,
+                position: "top-end",
+                showConfirmButton: false,
+                timer: 3000
+            });
+
+            function removeAll(initial_stage){
+                submit_button.removeClass("ajaxRequestSubmit");
+                submit_button.val(valueOfButton);
+                submit_button.attr("disabled", false);
+                $("span[id*=ajax-validation]").remove();
+                if(initial_stage) {
+                    $("#first_name").val("");
+                    $("#last_name").val("");
+                    $("#phone").val("");
+                    $("#message").val("");
+                }
+            };
+            $.ajax({
                 url: "api/quote/post",
                 method: "post",
                 data: {
-                    first_name: jQuery("#first_name").val(),
-                    last_name: jQuery("#last_name").val(),
-                    phone: jQuery("#phone").val(),
-                    message: jQuery("#message").val()
+                    first_name: $("#first_name").val(),
+                    last_name: $("#last_name").val(),
+                    phone: $("#phone").val(),
+                    message: $("#message").val()
                 },
                 success: function(result) {
-                    $("span[id*=validationDelete]").remove();
-                    jQuery("#first_name").val("");
-                    jQuery("#last_name").val("");
-                    jQuery("#phone").val("");
-                    jQuery("#message").val("");
-                    swal(
-                        "Quote Sent!",
-                        "Quote has been sent successfully!",
-                        "success"
-                    );
+                    removeAll(true);
+                    Toast.fire({
+                        type: "success",
+                        title: "Quote successfully send!"
+                    });
                 },
                 error: function(err) {
+                    removeAll(false);
                     if (err.status == 422) {
-                        $("#success_message")
-                            .fadeIn()
-                            .html(err.responseJSON.message);
-                        $("span[id*=validationDelete]").remove();
                         $.each(err.responseJSON.errors, function(i, error) {
                             var el = $(document).find('[name="' + i + '"]');
+                            el.addClass('is-invalid');
                             el.after(
                                 $(
-                                    '<span style="color: red;" id="validationDelete">' +
+                                    '<span class="invalid-feedback" role="alert" id="ajax-validation"><strong>' +
                                         error[0] +
-                                        "</span>"
+                                        "</strong></span>"
                                 )
                             );
+                        });
+                    } else {
+                        Toast.fire({
+                            type: "error",
+                            title: "Some error occured, try again later!"
                         });
                     }
                 }
             });
         });
     });
-
 })(jQuery);

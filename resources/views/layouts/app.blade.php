@@ -22,9 +22,11 @@
   <link rel="stylesheet" href="css/icomoon.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/custom.css">
+  <link rel="prefetch" href="images/progress.gif">
 
 </head>
 <body>
+  @include('sweetalert::alert')
   <nav class="navbar navbar-expand-lg navbar-light bg-white nav-box-shadow">
     <div class="container">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,7 +51,7 @@
         </div>
       </div>
       </nav>
-
+  
   @yield('content')
 
   <footer class="ftco-footer ftco-section">

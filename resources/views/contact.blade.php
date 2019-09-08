@@ -44,7 +44,7 @@
         <form class="bg-light p-5 contact-form" method="POST" action="/contactpost">
           {{ csrf_field() }}
           <div class="form-group">
-            <input id="name" type="text" placeholder="Your Name" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required @error('name') autofocus @enderror>
+            <input id="name" type="text" placeholder="Your Name" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required @error('name') autofocus @enderror minlength="3" maxlength="191">
             @error('name')
             <span class="invalid-feedback" role="alert">
               <strong>{{ $message }}</strong>
@@ -52,7 +52,7 @@
             @enderror
           </div>
           <div class="form-group">
-            <input type="email" class="form-control @error('email') is-invalid @enderror" value="{{ old('email') }}" placeholder="Your Email" id="email" name="email" required @error('email') autofocus @enderror>
+            <input type="email" class="form-control @error('email') is-invalid @enderror" value="{{ old('email') }}" placeholder="Your Email" id="email" name="email" required @error('email') autofocus @enderror maxlength="191">
             @error('email')
               <span class="invalid-feedback" role="alert">
                 <strong>{{ $message }}</strong>
@@ -60,7 +60,7 @@
             @enderror
           </div>
           <div class="form-group">
-            <input type="text" class="form-control @error('subject') is-invalid @enderror" value="{{ old('subject') }}" placeholder="Subject" id="subject" name="subject" required @error('subject') autofocus @enderror>
+            <input type="text" class="form-control @error('subject') is-invalid @enderror" value="{{ old('subject') }}" placeholder="Subject" id="subject" name="subject" required @error('subject') autofocus @enderror minlength="3" maxlength="191">
             @error('subject')
               <span class="invalid-feedback" role="alert">
                 <strong>{{ $message }}</strong>
@@ -68,7 +68,7 @@
             @enderror
           </div>
           <div class="form-group">
-            <textarea cols="30" rows="7" class="form-control @error('message') is-invalid @enderror" placeholder="Message" id="message" name="message" required @error('message') autofocus @enderror>{{ old('message') }}</textarea>
+            <textarea cols="30" rows="7" class="form-control @error('message') is-invalid @enderror" placeholder="Message" id="message" name="message" @error('message') autofocus @enderror required minlength="3" maxlength="999">{{ old('message') }}</textarea>
             @error('message')
               <span class="invalid-feedback" role="alert">
                 <strong>{{ $message }}</strong>

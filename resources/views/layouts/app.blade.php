@@ -12,7 +12,6 @@
   <link rel="stylesheet" href="css/result.css">
 </head>
 <body>
-  @include('sweetalert::alert')
   <nav class="navbar navbar-expand-lg navbar-light bg-white nav-box-shadow">
     <div class="container">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -109,5 +108,6 @@
   
   <script src="js/app.js"></script>
   @yield('scripts')
+  @include('sweetalert::alert')
 </body>
 </html>

@@ -7,9 +7,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>{{ !empty($title) ? $title : 'Page Not Found' }} - Codies</title>
 
-  <link rel="prefetch" href="images/progress.gif">
   {{-- <link rel="stylesheet" href="css/app.css"> --}}
   <link rel="stylesheet" href="css/result.css">
+  <link rel="prefetch" href="images/progress.gif">
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-white nav-box-shadow">

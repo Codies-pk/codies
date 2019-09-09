@@ -94,3 +94,8 @@
   </div>
 </section>
 @endsection
+
+@section('scripts')
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUbRHtu3k_fg3jDGk_qAatE5jA4bC_ndE"></script>
+  <script src="js/google-map.js"></script>
+@endsection

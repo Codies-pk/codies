@@ -7,23 +7,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>{{ !empty($title) ? $title : 'Page Not Found' }} - Codies</title>
 
-  <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-  <link rel="stylesheet" href="css/animate.css">
-
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
-  <link rel="stylesheet" href="css/magnific-popup.css">
-
-  <link rel="stylesheet" href="css/aos.css">
-
-  <link rel="stylesheet" href="css/ionicons.min.css">
-
-  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-  <link rel="stylesheet" href="css/icomoon.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/custom.css">
   <link rel="prefetch" href="images/progress.gif">
-
+  {{-- <link rel="stylesheet" href="css/app.css"> --}}
+  <link rel="stylesheet" href="css/result.css">
 </head>
 <body>
   @include('sweetalert::alert')
@@ -120,22 +106,8 @@
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
       <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
       <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#6c84c2" /></svg></div>
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/scrollax.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUbRHtu3k_fg3jDGk_qAatE5jA4bC_ndE"></script>
-  <script src="js/google-map.js"></script>
-  <script src="js/main.js"></script>
-  <script src="js/readFunction.js"></script>
+  
+  <script src="js/app.js"></script>
+  @yield('scripts')
 </body>
-
 </html>

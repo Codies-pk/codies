@@ -290,6 +290,7 @@ AOS.init({
                 submit_button.removeClass("ajaxRequestSubmit");
                 submit_button.val(valueOfButton);
                 submit_button.attr("disabled", false);
+                submit_button.parent().parent().find(".is-invalid").removeClass("is-invalid");
                 $("span[id*=ajax-validation]").remove();
                 if (initial_stage) {
                     $("#first_name").val("");
@@ -363,6 +364,7 @@ AOS.init({
                 submit_button.removeClass("ajaxRequestSubmit");
                 submit_button.val(valueOfButton);
                 submit_button.attr("disabled", false);
+                submit_button.parent().parent().find(".is-invalid").removeClass("is-invalid");
                 $("span[id*=ajax-validation]").remove();
                 if (initial_stage) {
                     $("#name").val("");

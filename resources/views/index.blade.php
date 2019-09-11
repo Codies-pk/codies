@@ -3,32 +3,11 @@
 @section('content')
 
 <section class="home-slider owl-carousel">
-    <div class="slider-item" style="background-image:url(images/bg_1.jpg);">
-        {{-- <div class="overlay"></div>
-        <div class="container">
-            <div class="row no-gutters slider-text align-items-center justify-content-start"
-                data-scrollax-parent="true">
-                <div class="col-md-7 ftco-animate">
-                    <span class="subheading">Welcome to Codies</span>
-                    <h1 class="mb-4">We Are The Best Consulting Agency</h1>
-                    <p><a href="/services" class="btn btn-primary px-4 py-3 mt-3">Our Services</a></p>
-                </div>
-            </div>
-        </div> --}}
+    <div class="slider-item">
+        <img src="images/bg_1.jpg" alt="Codies.io">
     </div>
-
-    <div class="slider-item" style="background-image:url(images/bg_2.jpg);">
-        {{-- <div class="overlay"></div>
-        <div class="container">
-            <div class="row no-gutters slider-text align-items-center justify-content-start"
-                data-scrollax-parent="true">
-                <div class="col-md-7 ftco-animate">
-                    <span class="subheading">Todays Talent, Tommorow Success</span>
-                    <h1 class="mb-4">We Help to Grow<br> Your Business</h1>
-                    <p><a href="#" class="btn btn-primary px-4 py-3 mt-3">Our Services</a></p>
-                </div>
-            </div>
-        </div> --}}
+    <div class="slider-item">
+        <img src="images/bg_2.jpg" alt="Codies.io">
     </div>
 </section>
 

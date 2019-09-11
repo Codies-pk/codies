@@ -286,18 +286,18 @@ AOS.init({
                 timer: 3000
             });
 
-            function removeAll(initial_stage){
+            function removeAll(initial_stage) {
                 submit_button.removeClass("ajaxRequestSubmit");
                 submit_button.val(valueOfButton);
                 submit_button.attr("disabled", false);
                 $("span[id*=ajax-validation]").remove();
-                if(initial_stage) {
+                if (initial_stage) {
                     $("#first_name").val("");
                     $("#last_name").val("");
                     $("#phone").val("");
                     $("#message").val("");
                 }
-            };
+            }
             $.ajax({
                 url: "api/quote/post",
                 method: "post",
@@ -319,7 +319,80 @@ AOS.init({
                     if (err.status == 422) {
                         $.each(err.responseJSON.errors, function(i, error) {
                             var el = $(document).find('[name="' + i + '"]');
-                            el.addClass('is-invalid');
+                            el.addClass("is-invalid");
+                            el.after(
+                                $(
+                                    '<span class="invalid-feedback" role="alert" id="ajax-validation"><strong>' +
+                                        error[0] +
+                                        "</strong></span>"
+                                )
+                            );
+                        });
+                    } else {
+                        Toast.fire({
+                            type: "error",
+                            title: "Some error occured, try again later!"
+                        });
+                    }
+                }
+            });
+        });
+
+        jQuery("#ajaxContactSubmit").click(function(e) {
+            e.preventDefault();
+            $.ajaxSetup({
+                headers: {
+                    "X-CSRF-TOKEN": $('meta[name="_token"]').attr("content")
+                }
+            });
+
+            const submit_button = $(this);
+            const valueOfButton = submit_button.val();
+            submit_button.val("");
+            submit_button.addClass("ajaxRequestSubmit");
+            submit_button.attr("disabled", true);
+
+            const Toast = Swal.mixin({
+                toast: true,
+                position: "top-end",
+                showConfirmButton: false,
+                timer: 3000
+            });
+
+            function removeAll(initial_stage) {
+                submit_button.removeClass("ajaxRequestSubmit");
+                submit_button.val(valueOfButton);
+                submit_button.attr("disabled", false);
+                $("span[id*=ajax-validation]").remove();
+                if (initial_stage) {
+                    $("#name").val("");
+                    $("#email").val("");
+                    $("#subject").val("");
+                    $("#message").val("");
+                }
+            }
+            $.ajax({
+                url: "api/contact/post",
+                method: "post",
+                data: {
+                    name: $("#name").val(),
+                    email: $("#email").val(),
+                    subject: $("#subject").val(),
+                    message: $("#message").val()
+                },
+                success: function(result) {
+                    removeAll(true);
+                    Toast.fire({
+                        type: "success",
+                        title: "Message successfully send!"
+                    });
+                },
+                error: function(err) {
+                    removeAll(false);
+                    if (err.status == 422) {
+                        $.each(err.responseJSON.errors, function(i, error) {
+                            var el = $(document).find('[name="' + i + '"]');
+                            el.addClass("is-invalid");
                             el.after(
                                 $(
                                     '<span class="invalid-feedback" role="alert" id="ajax-validation"><strong>' +

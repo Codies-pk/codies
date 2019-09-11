@@ -2,10 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Quotes;
-use App\Contact;
-use Illuminate\Http\Request;
-use RealRashid\SweetAlert\Facades\Alert;
 
 class HomeController extends Controller
 {
@@ -27,22 +23,5 @@ class HomeController extends Controller
 
     public function contact() {
         return view('contact')->with('title', 'Contact');
-    }
-    public function contactPost(Request $request) {
-        $this->validate($request, [
-            'name'      =>  'required|min:3|max:20',
-            'email'     =>  'required|email|max:191',
-            'subject'   =>  'required|min:3|max:191',
-            'message'   =>  'required|min:3|max:999'
-        ]);
-
-        $conatct = new Contact;
-        $conatct->name      =   $request->input('name');
-        $conatct->email     =   $request->input('email');
-        $conatct->subject   =   $request->input('subject');
-        $conatct->message   =   $request->input('message');
-        $conatct->save();
-        Alert::toast('Message send successfully', 'success');
-        return redirect('/contact')->with('title', 'Contact');
     }
 }

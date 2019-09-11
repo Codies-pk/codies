@@ -115,7 +115,7 @@
                     <div class="icon mt-2 d-flex justify-content-center align-items-center"><span
                             class="flaticon-ad"></span></div>
                     <div class="text media-body">
-                        <h3>Onilne Marketing</h3>
+                        <h3>Online Marketing</h3>
                         <p>Codies facilitate its clients and businesses to market thier products or services. We make sure to notch up your business ideas by facilitating <span id="dots7">...</span><span id="more7" style="display: none;">you with its exceptional online marketing services.</span></p>
                         <p style="cursor:pointer;" onclick="readFunction7()" id="readMore7">Read more</p>
                     </div>

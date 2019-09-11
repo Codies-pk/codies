@@ -65,7 +65,7 @@
 						<div class="icon mt-2 d-flex justify-content-center align-items-center"><span
 								class="flaticon-ad"></span></div>
 						<div class="text media-body">
-							<h3>Onilne Marketing</h3>
+							<h3>Online Marketing</h3>
 							<p>The leading business is one that appears on the first page of GOOGLE because of its efficient online marketing. Codies make sure to notch up your business ideas by facilitating you with its exceptional online marketing services.</p>
 						</div>
 					</div>
